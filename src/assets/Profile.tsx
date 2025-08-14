@@ -70,19 +70,6 @@ function Profile() {
               </a>
             </ul>
           </div>
-          <div>
-            <ul className="flex  justify-center space-x-4 text-1xl mt-6 text-amber-50">
-              <li className="border-white/20 border-b-8  p-3 hover:border-amber-500">
-                Projetos
-              </li>
-              <li className="border-white/20 border-b-8  p-3 hover:border-amber-500">
-                Formações
-              </li>
-              <li className="border-white/20 border-b-8  p-3 hover:border-amber-500">
-                Experiência
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>

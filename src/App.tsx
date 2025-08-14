@@ -1,15 +1,42 @@
 import './App.css'
+import Menu from './assets/Menu.tsx'
 import Profile from './assets/Profile.tsx'
 import Projetos from './assets/Projetos.tsx'
-function App() {
-  return (
-    <>
-      <div className="bg-gradient-to-b from-cyan-700 to-gray-700 min-h-screen">
-        <Profile />
+import { useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 
-        <Projetos />
-      </div>
-    </>
+function App() {
+  const [active, setActive] = useState('perfil')
+
+  return (
+    <div className="bg-gradient-to-b from-cyan-700 to-gray-700 min-h-screen flex flex-col items-center justify-center">
+      <Menu active={active} onSelect={setActive} />
+      <AnimatePresence mode="wait">
+        {active === 'perfil' && (
+          <motion.div
+            key="profile"
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Profile />
+          </motion.div>
+        )}
+        {active === 'projetos' && (
+          <motion.div
+            key="projetos"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -50 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Projetos />
+          </motion.div>
+        )}
+        {/* Adicione o componente de Tecnologias se quiser */}
+      </AnimatePresence>
+    </div>
   )
 }
 

@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+html {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #142131, #000113);
+}

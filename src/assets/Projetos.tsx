@@ -5,48 +5,69 @@ function Projetos() {
         <div>
           <ul>
             <li>
-              <h1 className="text-lg font-bold text-amber-50 text-center m-4">
-                Delivery Home Page
-              </h1>
-              <img
-                className="rounded-3xl shadow-lg border-2 border-cyan-50"
-                src="https://ik.imagekit.io/lkxant9gz/Delivery%20home%20page?updatedAt=1744139030560"
-                alt=""
-              />
+              <a
+                href="https://delivey-pi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-50 text-lg font-bold hover:underline"
+              >
+                <h1 className="text-lg font-bold text-amber-50 text-center m-4">
+                  Delivery Home Page
+                </h1>
+                <img
+                  className="rounded-3xl shadow-lg border-2 border-cyan-50 hover:scale-105 transition-transform duration-300"
+                  src="https://ik.imagekit.io/lkxant9gz/Delivery%20home%20page?updatedAt=1744139030560"
+                  alt=""
+                />
+              </a>
             </li>
             <li>
-              <h1 className="text-lg font-bold text-amber-50 text-center m-4">
-                Barber Shop Home Page
-              </h1>
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  className="rounded-3xl shadow-lg border-2 border-cyan-50"
-                  src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-13%2013-51-55.png?updatedAt=1755104027421"
-                  alt=""
-                />
-                <img
-                  className="rounded-3xl shadow-lg border-2 border-cyan-50"
-                  src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-13%2013-51-37.png?updatedAt=1755104027048"
-                  alt=""
-                />
-              </div>
+              <a
+                href="https://barbearia-react-two.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-50 text-lg font-bold hover:underline"
+              >
+                <h1 className="text-lg font-bold text-amber-50 text-center m-4">
+                  Barber Shop Home Page
+                </h1>
+                <div className="grid grid-cols-2 gap-4">
+                  <img
+                    className="rounded-3xl shadow-lg border-2 border-cyan-50 hover:scale-105 transition-transform duration-300"
+                    src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-13%2013-51-55.png?updatedAt=1755104027421"
+                    alt=""
+                  />
+                  <img
+                    className="rounded-3xl shadow-lg border-2 border-cyan-50 hover:scale-105 transition-transform duration-300"
+                    src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-13%2013-51-37.png?updatedAt=1755104027048"
+                    alt=""
+                  />
+                </div>
+              </a>
             </li>
             <li>
-              <h1 className="text-lg font-bold text-amber-50 text-center m-4">
-                Sistema de Recursos Humanos
-              </h1>
-              <div className="grid grid-cols-2 gap-4">
-                <img
-                  className="rounded-3xl shadow-lg border-2 border-cyan-50"
-                  src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-14%2011-49-49.png?updatedAt=1755183031172"
-                  alt=""
-                />
-                <img
-                  className="rounded-3xl shadow-lg border-2 border-cyan-50"
-                  src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-14%2011-49-55.png?updatedAt=1755183031163"
-                  alt=""
-                />
-              </div>
+              <a
+                href="https://rh77-react-ten.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-50 text-lg font-bold hover:underline"
+              >
+                <h1 className="text-lg font-bold text-amber-50 text-center m-4">
+                  Sistema de Recursos Humanos
+                </h1>
+                <div className="grid grid-cols-2 gap-4">
+                  <img
+                    className="rounded-3xl shadow-lg border-2 border-cyan-50 hover:scale-105 transition-transform duration-300"
+                    src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-14%2011-49-49.png?updatedAt=1755183031172"
+                    alt=""
+                  />
+                  <img
+                    className="rounded-3xl shadow-lg border-2 border-cyan-50 hover:scale-105 transition-transform duration-300"
+                    src="https://ik.imagekit.io/lkxant9gz/Captura%20de%20tela%20de%202025-08-14%2011-49-55.png?updatedAt=1755183031163"
+                    alt=""
+                  />
+                </div>
+              </a>
             </li>
           </ul>
         </div>

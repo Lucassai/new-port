@@ -5,7 +5,7 @@ type MenuProps = {
 
 function Menu({ active, onSelect }: MenuProps) {
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full z-10">
       <ul className="flex justify-center space-x-4 text-1xl mt-6 text-amber-50">
         <li
           className={`border-b-8 p-3 cursor-pointer ${

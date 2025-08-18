@@ -4,6 +4,7 @@ import Profile from './assets/Profile.tsx'
 import Projetos from './assets/Projetos.tsx'
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import Tecnologias from './assets/Tecnologias.tsx'
 
 function App() {
   const [active, setActive] = useState('perfil')
@@ -34,7 +35,17 @@ function App() {
             <Projetos />
           </motion.div>
         )}
-        {/* Adicione o componente de Tecnologias se quiser */}
+        {active === 'tecnologias' && (
+          <motion.div
+            key="tecnologias"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Tecnologias />
+          </motion.div>
+        )}
       </AnimatePresence>
     </div>
   )

@@ -9,7 +9,9 @@ function Menu({ active, onSelect }: MenuProps) {
       <ul className="flex justify-center space-x-4 text-1xl mt-6 text-amber-50">
         <li
           className={`border-b-8 p-3 cursor-pointer ${
-            active === 'perfil' ? 'border-amber-500' : 'border-white/20'
+            active === 'perfil'
+              ? 'border-amber-500 rounded-lg'
+              : 'border-white/20 rounded-lg'
           } hover:border-amber-500`}
           onClick={() => onSelect('perfil')}
         >
@@ -17,7 +19,9 @@ function Menu({ active, onSelect }: MenuProps) {
         </li>
         <li
           className={`border-b-8 p-3 cursor-pointer ${
-            active === 'projetos' ? 'border-amber-500' : 'border-white/20'
+            active === 'projetos'
+              ? 'border-amber-500 rounded-lg'
+              : 'border-white/20 rounded-lg'
           } hover:border-amber-500`}
           onClick={() => onSelect('projetos')}
         >
@@ -25,7 +29,9 @@ function Menu({ active, onSelect }: MenuProps) {
         </li>
         <li
           className={`border-b-8 p-3 cursor-pointer ${
-            active === 'tecnologias' ? 'border-amber-500' : 'border-white/20'
+            active === 'tecnologias'
+              ? 'border-amber-500 rounded-lg'
+              : 'border-white/20 rounded-lg'
           } hover:border-amber-500`}
           onClick={() => onSelect('tecnologias')}
         >

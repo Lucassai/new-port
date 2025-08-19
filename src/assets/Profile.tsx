@@ -26,54 +26,49 @@ function Profile() {
           </h1>
           <h2 className="text-amber-50 text-center">@lucassai</h2>
           <h3 className="text-amber-50 text-center">
-            Desenvolvedor Front-End | React | Next.js | TypeScript
+            Desenvolvedor Front-End | React | Nest.js | TypeScript
           </h3>
           <div className="justify-center items-center mt-4">
             <ul className="flex justify-center space-x-4 text-2xl">
-              <li>
+              <li className="botao_perfil">
                 <a
                   href="https://github.com/lucassai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="bg-white/20 rounded-2xl p-3 backdrop-blur-sm transition hover:bg-white/30">
-                    <FaGithub className="text-amber-50 hover:text-black transition-colors duration-300" />
-                  </div>
+                  <FaGithub />
                 </a>
               </li>
-              <a
-                href="https://www.linkedin.com/in/lucas-vinicius-mendes/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <div className="bg-white/20 rounded-2xl p-3 backdrop-blur-sm transition hover:bg-white/30">
-                    <FaLinkedinIn className="text-amber-50 hover:text-black transition-colors duration-300" />
-                  </div>
-                </li>
-              </a>
-              <a
-                href="https://www.instagram.com/vin.lcs/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <div className="bg-white/20 rounded-2xl p-3 backdrop-blur-sm transition hover:bg-white/30">
-                    <FaInstagram className="text-amber-50 hover:text-black transition-colors duration-300" />
-                  </div>
-                </li>
-              </a>
-              <a
-                href="https://www.figma.com/@lucassai"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <div className="bg-white/20 rounded-2xl p-3 backdrop-blur-sm transition hover:bg-white/30">
-                    <FaFigma className="text-amber-50 hover:text-black transition-colors duration-300" />
-                  </div>
-                </li>
-              </a>
+
+              <li className="botao_perfil">
+                <a
+                  href="https://www.linkedin.com/in/lucas-vinicius-mendes/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li className="botao_perfil">
+                <a
+                  href="https://www.instagram.com/vin.lcs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+
+              <li className="botao_perfil">
+                <a
+                  href="https://www.figma.com/@lucassai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFigma />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

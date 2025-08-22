@@ -25,3 +25,7 @@ Este é o meu portfólio pessoal desenvolvido com **Vite**, **React** e **TypeSc
 ├── vite.config.ts      # Configuração do Vite
 ├── package.json        # Dependências e scripts
 └── README.md           # Documentação do projeto
+```
+
+## ⚙️ Como Rodar o Projeto
+Pré-requisitos
